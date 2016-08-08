@@ -20,7 +20,7 @@ public class FuncionarioEntity extends BaseEntity<Long> {
 
 	private static final long serialVersionUID = 1L;
 	
-	
+	//teste comentario
 	private String nome;
 	
 	@OneToOne( cascade = CascadeType.ALL, optional = false, fetch = FetchType.EAGER)
